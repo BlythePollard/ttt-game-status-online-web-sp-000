@@ -67,6 +67,6 @@ def winner(board)
     board[index] #retrieve value of that first unit
   elsif false  
 end
-
+end
   #return a winning array
   #isolate first variable, return its value of X or O
