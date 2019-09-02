@@ -62,9 +62,10 @@ end
   
 def winner(board)
   over?(board) #make sure it's over
-  won?(board) #see if anyone won, return that array
-  index = won?(board)[0] #index = first unit of winning array
+  if won?(board) #see if anyone won, return that array
+    index = won?(board)[0] #index = first unit of winning array
     board[index] #retrieve value of that first unit
+  elsif false  
 end
 
   #return a winning array
